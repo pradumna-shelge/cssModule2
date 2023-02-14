@@ -58,7 +58,7 @@
        
         .data{
            display: grid;
-           grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+           grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
            gap: 12px;
            margin: 12px;
         
@@ -74,10 +74,15 @@
         .header{
             font-size: 2rem;
         }
-        @media only screen and (max-width: 700px) {
-            .menu{
-                display: none;
+        @media only screen and (max-width: 600px) {
+            .main{
+                display: block;
             }
+            h3 {
+    
+    width: 450%;
+}
+
           }
       
        
